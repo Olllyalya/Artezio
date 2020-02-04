@@ -1,0 +1,77 @@
+1.1
+
+a = int(input())
+b = int(input())
+c = int(input())
+d = int(input())
+e = int(input())
+
+my_list = [a, b, c, d, e]
+print("we hve a list: {}".format(my_list))
+
+def square_element(a:list) ->list:
+    last_list = []
+    for i in a:
+         i = i*2
+         last_list.append(i)
+    print("Squares of elements for the list: {}".format(last_list))
+
+square_element(my_list)
+
+
+
+
+1.2
+
+a = int(input())
+b = int(input())
+c = int(input())
+d = int(input())
+e = int(input())
+f = int(input())
+
+my_list = [a, b, c, d, e, f]
+print("we have a list: {}".format(my_list))
+
+def even_numbers(b):
+    index = 1
+    while index <= len(b):
+        print(b[index])
+        index += 2
+    else:
+      print("the end")
+
+even_numbers(my_list)
+
+
+
+
+
+1.3
+a = int(input())
+b = int(input())
+c = int(input())
+d = int(input())
+e = int(input())
+
+
+my_list = [a, b, c, d, e]
+print("we have a list: {}".format(my_list))
+
+def cube(b):
+    index = 0
+    first_list = []
+    while index <= len(b):
+       first_list.append(b[index])
+       index += 2
+       if index > len(b)-1:
+            break
+    second_list = []
+    for element in first_list:
+        element = element**3
+        second_list.append(element)
+    print("The cubes of elements are: {}".format(second_list))
+
+    
+
+cube(my_list)
