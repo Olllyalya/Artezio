@@ -1,0 +1,16 @@
+global_list = [] 
+def position_argument(a,b,c,d):
+    my_list = [a,b,c,d]
+    sum = 0
+    for i in my_list:
+        sum += i
+    average = sum/4
+    global global_list
+    global_list.append(average)
+    print(global_list)
+    print("maximum", max(global_list))
+
+position_argument(2,5,1,1)
+position_argument(2,5,7,1)
+position_argument(1,1,1,1)
+position_argument(14,13,12,11)
