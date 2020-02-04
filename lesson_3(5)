@@ -1,0 +1,8 @@
+def r(*args):
+    s = []
+    k = []
+    for n in args:
+        s.append(n)
+        d=abs(n)-0
+        k.append(d)
+    print(min(k))
