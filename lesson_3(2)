@@ -1,0 +1,13 @@
+def any_numbers_of_argument(*args): #все, что получилочь сделать, знаю, что не работает)
+    if arg in *args is arg[2]:
+        return None
+    multiplication = 1
+    for i in args:
+        if i != 0:
+            multiplication = i*multiplication
+    print(multiplication)
+    summ = 0
+    for i in args:
+        if i != 0:
+            summ = i+summ
+    print(summ)
